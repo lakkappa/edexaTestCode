@@ -25,7 +25,6 @@ class LoginComponent extends Component {
             alert("Please Enter Valid Username and Password")
     }
     signUp = () => {
-        // this.props.history.push('/signUp')
         this.props.history.push('/signUp')
         console.log("hiiii")
 
@@ -41,7 +40,7 @@ class LoginComponent extends Component {
             height: '100%'
         };
         return (
-            <div className="loginComponent" style={{ marginLeft: "40%", marginTop: "10%" }}>
+            <div className="loginComponent">
                 <div className="col-12 mx-auto bg_img" >
                     <div className="form">
                         <div className="row my-3" style={{ margin: '0px' }}>
